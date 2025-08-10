@@ -7,7 +7,7 @@ body {
   background-color: #fff;
   color: #111;
   text-transform: lowercase;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 * {
@@ -68,6 +68,7 @@ h4 {
 
 .about-content ul {
   list-style: none;
+  margin-top: 0;
   padding: 0; 
   text-align: "left";
 
@@ -75,15 +76,22 @@ h4 {
 
 .link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.footer {
+  padding-top: 40px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
   .content {
     width: 100%;
     margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .gif-wrapper img {
-    height: 120px;
+    height: 100px;
   }
 }
