@@ -11,7 +11,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="main-page">
       <div className="invite-wrapper">
 
         <div className="gif-wrapper">
