@@ -10,7 +10,7 @@ export default function IsyaPage() {
         <h2>nur amira batrisyia</h2>
         <br></br>
         <div className="about-content">
-            <p>hello, i'm batrisyia. </p>
+            <p>hello, i&apos;m batrisyia. </p>
         </div>
     </div>
   );
