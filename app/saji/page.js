@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+import { GiCoffeeMug } from "react-icons/gi";
+import { FaRunning } from "react-icons/fa";
+import { FaCarRear } from "react-icons/fa6";
+import { MdOutlineWorkHistory } from "react-icons/md";
+import { FaMobileRetro } from "react-icons/fa6";
+import { MdOutlineEmojiEmotions } from "react-icons/md";
+import { BiAngry } from "react-icons/bi";
+
 export default function SajiPage() {
   return (
     <div className="about">
@@ -8,6 +16,7 @@ export default function SajiPage() {
         </Link>
         <br></br><br></br>
         <h2>sharjeel sohail</h2>
+        <div className="icon-line"><GiCoffeeMug /> <FaRunning /> <FaCarRear /> <MdOutlineWorkHistory /> <FaMobileRetro /></div>
         <br></br>
         <div className="about-content">
             <p>hello, i&apos;m sharjeel - from karachi, pakistan. i&apos;ve been living in australia for the last 7 years, working as a software engineer.  
