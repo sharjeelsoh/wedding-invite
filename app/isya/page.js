@@ -4,8 +4,6 @@ import { VscSymbolColor } from "react-icons/vsc";
 import { IoFastFoodOutline } from "react-icons/io5";
 import { PiCassetteTape } from "react-icons/pi";
 import { TbBrandFunimation } from "react-icons/tb";
-import { MdOutlineEmojiEmotions } from "react-icons/md";
-import { BiAngry } from "react-icons/bi";
 
 
 export default function IsyaPage() {
@@ -38,9 +36,9 @@ export default function IsyaPage() {
             <br></br>
             <h4>his favourite words of mine</h4>
             <ul>
-              <li>hey! how are ya? <MdOutlineEmojiEmotions /></li>
+              <li>hey! how are ya?</li>
               <li>mate...</li>
-              <li>no timeeeee!!!!! <BiAngry /></li>
+              <li>no timeeeee!!!!!</li>
               <li>brother..</li>
             </ul>
             <p>
