@@ -7,7 +7,7 @@ body {
   background-color: #fff;
   color: #111;
   text-transform: lowercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 * {
@@ -99,6 +99,7 @@ h4 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .gif-wrapper img {
     height: 100px;
   }
@@ -108,5 +109,9 @@ h4 {
     flex-direction: column;
     min-height: 100vh;
     align-items: start;
+  }
+
+  body {
+      font-size: 14px;
   }
 }
