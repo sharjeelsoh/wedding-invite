@@ -101,7 +101,7 @@ h4 {
   }
 
   .gif-wrapper img {
-    height: 100px;
+    height: 110px;
   }
 
   .about {
@@ -112,6 +112,6 @@ h4 {
   }
 
   body {
-      font-size: 14px;
+      font-size: 12px;
   }
 }
