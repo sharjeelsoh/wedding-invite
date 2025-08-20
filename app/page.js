@@ -1,21 +1,21 @@
 'use client';
 
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { TfiAlarmClock } from "react-icons/tfi";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { BsCalendarHeart } from "react-icons/bs";
 
 
 export default function Home() {
-  
-  const router = useRouter();
 
   return (
     <div className="main-page">
       <div className="invite-wrapper">
 
         <div className="gif-wrapper">
-          <img onClick={() => router.push("/saji")} src="/assets/sajistick.gif" alt="saji" />
+          <Link href='/saji' prefetch={true}>
+            <img src="/assets/sajistick.gif" alt="saji" />
+          </Link>
         </div>
 
         <div className="invite-content">
@@ -27,7 +27,9 @@ export default function Home() {
         </div>
 
         <div className="gif-wrapper">
-          <img onClick={() => router.push("/isya")} src="/assets/isyastick.gif" alt="isya" />
+          <Link href='/isya' prefetch={true}>
+            <img src="/assets/isyastick.gif" alt="isya" />
+          </Link>
         </div>
 
       </div>

@@ -1,10 +1,7 @@
 import Link from "next/link";
-import { GiCoffeeMug } from "react-icons/gi";
-import { VscSymbolColor } from "react-icons/vsc";
-import { IoFastFoodOutline } from "react-icons/io5";
-import { PiCassetteTape } from "react-icons/pi";
-import { TbBrandFunimation } from "react-icons/tb";
 
+import { GiCoffeeMug } from "react-icons/gi";
+import { IoFastFoodOutline } from "react-icons/io5";
 
 export default function IsyaPage() {
   return (
@@ -14,7 +11,7 @@ export default function IsyaPage() {
         </Link>
         <br></br><br></br>
         <h2>nur amira batrisyia</h2>
-        <div className="icon-line"><GiCoffeeMug /> <VscSymbolColor /> <IoFastFoodOutline /> <PiCassetteTape /> <TbBrandFunimation /></div>
+        <div className="icon-line"><GiCoffeeMug /><IoFastFoodOutline /></div>
         <br></br>
         <div className="about-content">
             <p>hello reader! i&apos;m batrisyia, i&apos;m from brunei and some of you may know me as isya. i recently graduated with a bachelor of speech pathology from uon where i met the loveliest boy.</p>
@@ -29,9 +26,9 @@ export default function IsyaPage() {
             </ul>
             <h4>a little about my love</h4>
             <p>
-              i&apos;m marrying the cutest brown guy i have ever seen in my life (like actually love at first sight). he&apos;s got this perfect little dimple on his cheek which is my absolute favourite thing about him. 
-              he&apos;s generous, caring, responsible, punctual, honest and incredibly disciplined. he also reminds me to be unapologetically myself (i need this because i am a big people pleaser and tend to forget about my own needs). 
-              he&apos;s also the biggest romantic and has always surprised me with thoughtful dates, gifts, and gestures that makes me feel so loved. 
+              i&apos;m marrying the cutest brown guy i have ever seen in my life. he&apos;s got this perfect little dimple on his cheek which is my absolute favourite thing about him. 
+              he&apos;s generous, caring, responsible, punctual, honest and incredibly disciplined. he also reminds me to be unapologetically myself (i am a big people pleaser and tend to forget about my own needs). 
+              he&apos;s also the biggest romantic and has always surprised me with thoughtful dates, gifts, and gestures. 
             </p>
             <br></br>
             <h4>his favourite words of mine</h4>
@@ -41,8 +38,7 @@ export default function IsyaPage() {
               <li>no timeeeee!!!!!</li>
               <li>brother..</li>
             </ul>
-            <p>
-              i promes to love and cherish my buddy and to cook him yummy food. i&apos;m so excited to do life together. simple, everyday things become so much more tolerable when he&apos;s around. and most of all, 
+            <p> 
               i&apos;m grateful to allah for bringing him into my life and guiding our hearts to each other. baaa
             </p>
         </div>
